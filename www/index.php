@@ -10,7 +10,7 @@ require_once("header.php")
    <h1>MAIN</h1>
 
 
-   <div class="mainpage">
+   <div>
 
      <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec ipsum feugiat, suscipit leo ultricies, viverra nibh. Praesent tincidunt erat ac mattis suscipit. Integer suscipit bibendum est, at viverra sapien dictum id. Donec nec diam nec ipsum imperdiet aliquam at vitae lectus. Vestibulum fe
      ugiat risus vitae arcu semper, ac semper ipsum fringilla. Donec consectetur feugiat nulla vel pellentesque. Integer lacinia, magna quis volutpat maximus, nisi massa volutpat nisl, placerat feugiat orci tellus et magna. Cras eget quam faucibus, tristique elit vitae, tincidunt mauris.

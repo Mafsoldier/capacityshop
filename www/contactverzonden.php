@@ -39,8 +39,6 @@ require_once("header.php")
 document.addEventListener("click", function(){
  var myWindow = window.open("main.php", "_self");
  });
-</script>https://github.com/Mafsoldier/capacityshop.git
-
 
  <?php
 

@@ -17,7 +17,7 @@
     <script src="https://kit.fontawesome.com/55af721932.js" crossorigin="anonymous"></script>
 
     <!-- eigen css file  -->
-    <link rel = "stylesheet" type = "text/css" href = "style.css" />
+    <link rel = "stylesheet" type = "text/css" href = "style.css">
   </head>
 
 
@@ -37,7 +37,7 @@
                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
                        <li class="nav-item navigationcss">
-                         <a class="nav-link textColor" href="main.php">Home <span class="sr-only">(current)</span></a>
+                         <a class="nav-link textColor" href="index.php">Home <span class="sr-only">(current)</span></a>
                        </li>
                        <li class="nav-item navigationcss">
                          <a class="nav-link textColor" href="portfolio.php">portfolio</a>

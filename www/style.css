@@ -1,7 +1,6 @@
 body {
 font-family: 'Playfair Display', serif;
-background-color: orange;
-
+background-color: white;
 }
 
 p {
@@ -14,14 +13,12 @@ h1 {
   align-content: center;
 }
 
-
 .navigationcss {
   font-size: 25px;
   margin-left: 15%;
 }
 
 .myfooter {
-
   background-color: grey;
 }
 
