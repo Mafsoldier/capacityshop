@@ -1,19 +1,18 @@
 body {
 font-family: 'Playfair Display', serif;
-background-color: white;
+background-color: orange;
 
 }
 
 p {
   font-family: 'Playfair Display', serif;
-  color: purple;
+  color: green;
 }
 
 h1 {
   font-family: 'Playfair Display', serif;
   align-content: center;
 }
-
 
 
 .navigationcss {

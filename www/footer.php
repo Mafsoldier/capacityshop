@@ -14,7 +14,9 @@
 
       </div>
       <div class="col-sm myfooterheight">
-
+        <span style="font-size: 4em ">
+          <i class="fab fa-linkedin"></i>
+        </span>
       </div>
     </div>
   </div>

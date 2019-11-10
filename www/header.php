@@ -6,10 +6,15 @@
     <meta charset="utf-8">
     <title>Capacity shop</title>
 
-<!-- bootstrap  -->
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<!-- font syle -->
-<link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+
+    <!-- bootstrap  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- font syle -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
+
+    <!-- reference your copy Font Awesome here (from our CDN or by hosting yourself) -->
+    <script src="https://kit.fontawesome.com/55af721932.js" crossorigin="anonymous"></script>
 
     <!-- eigen css file  -->
     <link rel = "stylesheet" type = "text/css" href = "style.css" />
@@ -31,11 +36,14 @@
                    <a class="navbar-brand logocss " style="color:orange" >The capacity shop</a>
                    <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
                      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-                       <li class="nav-item active navigationcss">
+                       <li class="nav-item navigationcss">
                          <a class="nav-link textColor" href="main.php">Home <span class="sr-only">(current)</span></a>
                        </li>
                        <li class="nav-item navigationcss">
                          <a class="nav-link textColor" href="portfolio.php">portfolio</a>
+                       </li>
+                       <li class="nav-item navigationcss">
+                         <a class="nav-link textColor" href="blog.php">blog</a>
                        </li>
                        <li class="nav-item navigationcss">
                          <a class="nav-link textColor" href="contact.php">contact</a>
