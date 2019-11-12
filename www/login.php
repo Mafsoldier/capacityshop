@@ -6,13 +6,27 @@ require_once("..//db_config.php");
 
 if (isset($_SESSION['loggedin'])) {
 
-    echo "You are loggedin already";
+
+  echo "<script>location.href='gebruikerpagina.php';</script>";
+
 
   }else {
 
     if (isset($_POST['submit'])){
+
+      $loginName = $_POST['naam'];
+      $wachtWoord = $_POST['wachtwoord'];
+
+// check of wachtwoord overeenkomt met wachtwoord uit de database.
+// ook moet het wachtwoord nog encrypt worden met salt.
+      if () {
+
+
+
+      }
     echo "login succeed.";
     $_SESSION['loggedin'] = true;
+    echo "<script>location.href='gebruikerpagina.php';</script>";
 
   }else { ?>
 

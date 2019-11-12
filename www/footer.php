@@ -7,8 +7,14 @@
 
   <div class="container-fluid fixed-bottom myfooterheight">
     <div class="row bg-light myfooterheight">
-      <div class="col-sm myfooterheight">
-
+      <div class="col-sm myfooterheight logintekst">
+        <?php
+        if (isset($_SESSION['loggedin'])) {
+          echo  "<a href='uitloggen.php'>Uitloggen</a> ";
+        }else {
+          echo  "<a href='login.php'>Login</a>";
+        }
+    ?>
       </div>
       <div class="col-sm-8 myfooterheight">
 
