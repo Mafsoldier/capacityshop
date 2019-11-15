@@ -17,16 +17,23 @@ if (isset($_SESSION['loggedin'])) {
       $loginName = $_POST['naam'];
       $wachtWoord = $_POST['wachtwoord'];
 
+
+      $query = "SELECT wachtwoord, valid FROM gebruikers WHERE naam='test'";
+
+      if($db_connection->exec($query)){
+        echo $query;
+
 // check of wachtwoord overeenkomt met wachtwoord uit de database.
 // ook moet het wachtwoord nog encrypt worden met salt.
-      if () {
-
-
-
-      }
+      // if () {
+      //
+      //
+      //
+      // }
     echo "login succeed.";
     $_SESSION['loggedin'] = true;
     echo "<script>location.href='gebruikerpagina.php';</script>";
+      }
 
   }else { ?>
 
