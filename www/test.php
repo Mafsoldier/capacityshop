@@ -20,10 +20,9 @@ foreach ($db_connection->query($sql) as $row) {
 
 
   }else {
-    echo "Sorry we don't know who you are...";
+    echo "Sorry we don't know who you are...yet ;)";
   }
 
-}
 
 
 
