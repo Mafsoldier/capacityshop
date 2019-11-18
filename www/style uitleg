@@ -1,0 +1,24 @@
+kleiner is dan 320px
+groter of gelijk is aan 320px
+groter of gelijk is aan 720px
+groter of gelijk is aan 1024px
+
+@media screen and (max-width: 320) {
+
+
+  }
+
+@media screen and (min-width: 320) {
+
+
+  }
+
+@media screen and (min-width: 720) {
+
+
+  }
+
+@media screen and (min-width: 1024) {
+
+
+  }

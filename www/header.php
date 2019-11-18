@@ -15,26 +15,31 @@
 
 <body>
 
-    <div id="header"> 
+    <div class="container">
 
-        <div class="container">
-        <a href="index.php"> Capacity shop </a>
-            <ul>
-                <li>
-                 <a href="index.php">Home </a>
-                </li>
-                <li> 
-                <a href="contact.php"> Contact </a>
-                </li>
-                <li> 
-                <a href="blog.php"> Blog </a>
-                </li>
-                <li> 
-                <a href="portfolio.php"> Portfolio </a>
-                </li>
-            
-            </ul>
+        <div class="item-a"> 
+        
+            <p> Titel </p>
+
         </div>
+        <div class="item-b"> 
+        
+        <p> Tsd </p>
+
+    </div>
+
+    <div class="item-c"> 
+        
+        <p> Tsd </p>
+
+    </div>
+
+    <div class="item-d"> 
+        
+        <p> Tsd </p>
+
+    </div>
 
 
-     </div>
+    </div>
+

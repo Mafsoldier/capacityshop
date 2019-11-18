@@ -1,20 +1,101 @@
-body {
+
+
+@media screen and (max-width: 320px) {
+  body {
 
     margin: 0;
+    background-color: purple;
+  }
 }
 
-#header {
-    background-color: #DCC48E;
-    height: 150px;
-    width: auto;
+@media screen and (min-width: 320px) {
+  body {
+
+    margin: 0;
+    background-color: orange;
+  }
+}
+
+@media screen and (min-width: 720px) {
+  body {
+
+    margin: 0;
+    background-color: green;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  body {
+
+    margin: 0;
+    background-color: red;
+  }
 }
 
 
+/* .container {
+    display: grid;
+    grid-template-columns: [line1] 100px [line2] auto [line3] 100px;
+    grid-template-rows : [row1] 25% [row2] 100px [row3] auto;
+}
 
 
+.item-a {
+    grid-column-start: line2;
+    grid-column-end: line3;
+    grid-row-start: row1;
+    grid-row-end: row2;
 
+    background-color: red;
+  }
 
+  .item-b {
+    grid-column-start: line2;
+    grid-column-end: line3;
+    grid-row-start: row2;
+    grid-row-end: row3;
 
+    background-color: yellow;
+  }
+
+  .item-c {
+      grid-column-start: line3;
+      grid-column-end: 4;
+      grid-row-start: row1;
+      grid-row-end: 4;
+
+      background-color: teal;
+  } */
+
+  .item-a {
+    grid-area: header;
+    background-color: white;
+  }
+  .item-b {
+    grid-area: main;
+    background-color: pink;
+  }
+  .item-c {
+    grid-area: sidebar;
+    background-color: pink;
+  }
+  .item-d {
+    grid-area: footer;
+    background-color: white;
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 50px auto auto 50px;
+    grid-template-rows: 20% auto 20%;
+    grid-template-areas: 
+      "header header header header"
+      "main main main sidebar"
+      "footer footer footer footer";
+
+      grid-column-gap: 10px;
+      grid-row-gap: 15px;
+  }
 
 
 
