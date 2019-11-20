@@ -1,8 +1,52 @@
 
+* {
+    margin: 0;
+    padding: 0;
+}
 
 
+body {
+    background-color: burlywood;
+  
+}
 
+.container {
+    display: grid;
+    grid-template-columns: 50px 50px 50px 50px;
+    grid-template-rows: auto;
+    grid-template-areas: 
+      "header header header header"
+      "main main . sidebar"
+      "footer footer footer footer";
+      row-gap: 20px;
+  }
 
+.item-header {
+
+    grid-area: header;
+    background-color: darkblue;
+}
+
+.item-main {
+
+    grid-area: main;
+    background-color: darkgoldenrod;
+}
+
+    
+.item-sidebar {
+
+    grid-area: sidebar;
+    background-color: blueviolet;    
+}
+
+        
+.item-footer {
+
+    grid-area: footer;
+    background-color: aqua;        
+}
+            
 
 
 /* colors zwart #2D3047  oranje #FE9920  berge #DCC48E light berge #EAEFD3 tegen wit aan #F7FFF6 */
