@@ -1,3 +1,10 @@
+
+<?php
+include_once "../functions.php";
+
+?>
+
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -15,10 +22,31 @@
 <div class="container">
 
 
-<div class="item-header"></div>
-<div class="item-main"></div>
+<div class="item-header">
 
-<div class="item-sidebar"></div>
+<span>icoon 1</span>
+<span>icoon 2</span>
+<span>icoon 3</span>
+<span>icoon 4</span>
+
+</div>
+
+
+
+
+
+<div class="item-main">
+    <div>
+        <?php marc('marc'); ?>
+    <p>Testing</p>
+    
+    </div>
+
+
+
+</div>
+
+
 
 <div class="item-footer"></div>
 

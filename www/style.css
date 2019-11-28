@@ -6,45 +6,38 @@
 
 
 body {
-    background-color: burlywood;
+    background-color: #F7FFF6;
   
 }
 
 .container {
     display: grid;
-    grid-template-columns: 50px 50px 50px 50px;
-    grid-template-rows: auto;
+    grid-template-columns: 50px auto auto 50px;
+    grid-template-rows: 150px auto auto 150px;
     grid-template-areas: 
       "header header header header"
-      "main main . sidebar"
+      "main main main main"
+      "main main main main"
       "footer footer footer footer";
-      row-gap: 20px;
+      row-gap: 5px;
   }
 
 .item-header {
 
     grid-area: header;
-    background-color: darkblue;
+    background-color: #DCC48E;
 }
 
 .item-main {
 
     grid-area: main;
-    background-color: darkgoldenrod;
+    background-color:  #F7FFF6
 }
-
-    
-.item-sidebar {
-
-    grid-area: sidebar;
-    background-color: blueviolet;    
-}
-
-        
+         
 .item-footer {
 
     grid-area: footer;
-    background-color: aqua;        
+    background-color: #DCC48E;        
 }
             
 
